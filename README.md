@@ -18,6 +18,7 @@ Clone this project and copy the Assets/SimpleModelView folder into your Unity pr
 ##### Unity 2018 and TextMeshPro
 When you load the ExampleComplex scene, you'll be prompted to load TextMeshPro into the project - that's fine. However the transform for the example `RotationSpeed_TextMeshProWorldSpace` gets messed up, but don't worry about that for demo purposes.
 
+The folder `Assets/TextMesh Pro` and `Assets/TextMeshPro` are in `.gitignore`. If you use this whole repo as a submodule in another project, we don't want a conflict with another copy of TextMesh Pro that may be in use.
 ##### Unity 2017 and earlier
 You'll need to either:
 

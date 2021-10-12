@@ -14,7 +14,27 @@ sysinfo.txt
 /Assets/AssetStoreTools*
 *.apk
 *.unitypackage
- 
+
+# ignore meta files that get created if you 
+# copy this whole project into another project
+# as a submodule
+/ProjectSettings/*.meta
+Assets.meta
+CHANGELOG.md.meta
+LICENSE.meta
+Packages.meta
+Packages/*.meta
+ProjectSettings.meta
+README.md.meta
+*.sln.meta
+# ignore this folder that will get added to project for 
+# running the examples, and may be a duplicate 
+# when using this in another project via a full clone
+/Assets/TextMesh\ Pro/
+/Assets/TextMeshPro/
+/Assets/TextMesh\ Pro.meta
+/Assets/TextMeshPro.meta
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
